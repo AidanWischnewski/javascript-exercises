@@ -2,7 +2,7 @@ const repeatString = function(string, repititions) {
     if (repititions < 0){
         return "ERROR"
     }
-    result = "";
+    let result = "";
     for ( i=0; i < repititions; i++){
         result += string
     }
